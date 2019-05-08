@@ -15,9 +15,9 @@ You can change it by modifying MakeFlie.
 
 ### Desired folder hierachy
 
-    this_repo/ --- depthRenderer/ --- src/
-                |- mLib/           |- Makefile
-                                   |- ...
+    this_repo/ --- depthRenderer/ --- src/ -------- common/
+                |- mLib/           |- Makefile   |- main.cpp
+                                   |- ...        |- mLibSource.cpp
                                    |- README.md
 
 
