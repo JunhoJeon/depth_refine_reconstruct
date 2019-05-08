@@ -1,0 +1,12 @@
+#version 330 core
+
+// Ouput data
+layout(location = 0) out float fragmentdepth;
+
+//uniform mat4 gl_ProjectionMatrix;
+uniform float zNear;
+uniform float zFar;
+
+void main(){
+    //fragmentdepth = (2.0 * zNear) / (zFar + zNear - gl_FragCoord.z * (zFar - zNear));
+}
