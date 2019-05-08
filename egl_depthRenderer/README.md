@@ -15,10 +15,10 @@ You can change it by modifying MakeFlie.
 
 ### Desired folder hierachy
 
-    this_repo/ --- depthRenderer/ --- src/ -------- common/
-                |- mLib/           |- Makefile   |- main.cpp
-                                   |- ...        |- mLibSource.cpp
-                                   |- README.md
+    this_repo/ --- egl_depthRenderer/ --- src/ -------- common/
+                |- mLib/               |- Makefile   |- main.cpp
+                                       |- ...        |- mLibSource.cpp
+                                       |- README.md
 
 
 
