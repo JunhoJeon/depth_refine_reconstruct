@@ -28,7 +28,7 @@ You can change it by modifying MakeFlie.
 
 The code needs reconstructed .ply model and camera poses from [ScanNet dataset](http://www.scan-net.org).
 
-Pose file (frame-XXXXXX.pose.txt) contains 4x4 transformation matrix that project world to the camera coordinate system.
+Camer pose files (frame-XXXXXX.pose.txt) contain 4x4 transformation matrix that project world to the camera coordinate system.
 
     $ cat frame-000000.pose.txt
     -0.955421 0.119616 -0.269932 2.65583
@@ -37,7 +37,7 @@ Pose file (frame-XXXXXX.pose.txt) contains 4x4 transformation matrix that projec
     0 0 0 1
     $ _
 
-Pose files of a each scan of ScanNet can be extracted from *.sens file (see [here](https://github.com/ScanNet/ScanNet/tree/master/SensReader)).
+You can extract camera pose files of each scan from \*.sens file in ScanNet dataset (see [here](https://github.com/ScanNet/ScanNet/tree/master/SensReader)).
 
     $ make
     $ ./depthRenderer <path_to_ply_model> <path_to_poses_files> <path_to_output_depth> <frame_interval>
